@@ -30,6 +30,7 @@ public class DetalheActivity extends AppCompatActivity {
 
             if( moeda.equals("cara")){
                 imageMoeda.setImageDrawable( ContextCompat.getDrawable(this,R.drawable.moeda_cara ));
+                Toast.makeText(this,"Cara",Toast.LENGTH_LONG);
             }else {
                 imageMoeda.setImageDrawable( ContextCompat.getDrawable(this,R.drawable.moeda_coroa ));
             }
